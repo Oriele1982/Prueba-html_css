@@ -1,0 +1,172 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Columnas */
+.row{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.col-md-3{
+	width: 25%;
+	margin: 0
+}
+
+.col-md-4{
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.col-md-5{
+	width: 30%;
+	margin: 30px 0 0 35px;
+	padding: 0;
+	display: inline-block;
+}
+
+/* Header - navbar */
+
+.mainheader{
+	margin: 0;
+	padding: 0;
+}
+
+	.mainHeader_navbar{
+		width: 100%;
+		background: linear-gradient(to top, silver, white);
+		padding: 5px;
+		margin: 0;
+	}
+	
+	.mainHeader_logo{
+		width: 50%;
+		margin-left: 20px;
+		padding: 10px 0;
+	}
+
+	.mainHeader_nav{
+		margin-top: 40px;
+		padding-right: 30px;
+	}
+
+@media (max-width: @screen-xs-max){
+	
+	.mainHeader_logo{
+		width: 30%;
+		margin-left: 20px;
+		padding: 10px 0;
+	}
+}
+
+/* Section -INICIO */
+
+.banner__row{
+	height: 150px;
+	background-size: 100%;
+	background-image: url(../images/banner-ok.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
+	
+
+.thumbnail{
+	width: 60%;
+	text-align: center;
+	color: #336699;
+	margin-left: 30px;
+}
+
+	.thumbnail_info{
+		width: 90%;
+		padding: 5px;
+		margin-left: 15px;
+	}
+
+
+
+
+/* Footer */
+
+footer{
+	background: linear-gradient(to bottom, silver, white);
+}
+.mainfooter{
+	width: 100%;
+	box-sizing: border-box;
+
+}
+	
+
+	.mainFooter__container{
+		width: 100%;
+		margin-left: : 80px;
+		padding: 30px 0 0 30px ;
+		color: #5E85A5;
+	}
+
+	.mainFooter_contactlist{
+		list-style: none;
+		margin-top: 70px;
+	}
+
+	.mainFooter_contactdata{
+		padding:5px;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 14px;
+
+	}
+
+	.mainFooter_map{
+		margin-left: 70px;
+	}
+
+	.mainFooter_caption{
+		margin-left: 150px;
+		text-align: center;
+	}
+	
+	.mainFooter_form{
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	.mainFooter_btn{
+		margin: 10px 0 0 10px;
+		padding: 7px 25px;
+		border-radius: 30px;
+		background: linear-gradient(to top, white, #336699);
+		color: white;
+	}
+	
+	.mainFooter_btn:hover{
+		background: silver;
+		color: #336699;
+	}
+.form-horizontal{
+	width: 80%;
+	margin: 80px 0  0 160px;
+	padding: 0;
+}	
+
+.fa-facebook-square{
+	font-size: 50px;
+}
+
+.fa-phone, .fa-fax, .fa-envelope{
+	font-size: 16px;
+	margin-right: 2px;
+}
+
+
+/* SECTION - NOSOTROS */
+
+/* SECTION - NOTICIAS */
+
+
