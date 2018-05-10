@@ -29,6 +29,16 @@ body{
 	display: inline-block;
 }
 
+.col-md-6{
+	width: 60%;
+}
+
+.col-md-12{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 /* Header - navbar */
 
 .mainheader{
@@ -101,7 +111,6 @@ footer{
 
 }
 	
-
 	.mainFooter__container{
 		width: 100%;
 		margin-left: : 80px;
@@ -167,6 +176,67 @@ footer{
 
 /* SECTION - NOSOTROS */
 
+.history, .target{
+	padding: 10px;
+	text-align: justify;
+
+}
+
+	.history_img{
+		margin-left: 40px;
+		border-radius: 20px;
+		border: 1px solid #273744;
+	}
+
+	.history__fundation{
+		color: #336699;
+	}
+
+	.target_img{
+		margin-left: 60px;
+		border-radius: 20px;
+		border: 1px solid #273744;
+	}
+	
+	.target__fundation{
+		margin-left: 100px;
+		text-align: right;
+		color: #336699;
+	}
+
+	.target_mission{
+		list-style: none;
+		padding: 5px 0;
+	}
+
+.donation{
+	text-align: center;		
+}
+
+	.donation_list{
+		list-style: none;
+		padding: 10px;
+		margin: 0;
+		color: #336699;
+		background-color: #EDE1E3;
+	}
+
+	.donation_metod{
+		padding: 5px 0;
+	}
+
+h2{
+	background-color: #EDED7D;
+	color: #0A0A0A;
+	padding: 10px 40px;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+
+}
+h3{
+	color: #FF3340;
+}	
 /* SECTION - NOTICIAS */
 
 
