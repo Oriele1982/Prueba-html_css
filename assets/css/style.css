@@ -13,7 +13,8 @@ body{
 
 .col-md-3{
 	width: 25%;
-	margin: 0
+	margin: 0;
+	padding: 0;
 }
 
 .col-md-4{
@@ -31,6 +32,8 @@ body{
 
 .col-md-6{
 	width: 60%;
+	margin: 0;
+	padding: 0;
 }
 
 .col-md-12{
@@ -51,6 +54,7 @@ body{
 		background: linear-gradient(to top, silver, white);
 		padding: 5px;
 		margin: 0;
+
 	}
 	
 	.mainHeader_logo{
@@ -239,4 +243,21 @@ h3{
 }	
 /* SECTION - NOTICIAS */
 
+.news__section, h1{
+	background-color:  #EDED7D;
+	color: #336699;
+	padding: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+.news{
+	padding: 10px;
+	margin-left: 20px;
+}
+
+	.news_img{
+		margin-top: 10px;
+		padding: 15px;
+		border-radius:20px;
+	}
 
